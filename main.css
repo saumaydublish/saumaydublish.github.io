@@ -1,0 +1,167 @@
+body
+{
+font-size:        62.5%; 
+margin:           0;
+padding:          0;
+background-color: #BDBDBD;
+font-family:     'lucida grande', arial, tahoma, sans-serif;
+}
+
+#container
+{
+margin:          0 auto;
+padding-top:20px;
+width:           783px;
+position:        relative;
+background-color:  #333;
+}
+
+#pageHeader{
+	width: 290px;
+	height: 290px;
+	position: static;
+	background: url(Photos/saumaydublishBW290px.jpg) no-repeat;
+	color: #FAF3E9;
+	text-align: left;
+        margin-left: 20px;
+}
+
+.headtitle
+{
+font-family: times, Times New Roman, times-roman, georgia, serif;
+
+position:        relative;
+letter-spacing:  0px;
+font-size:       40px;
+line-height:     44px;
+margin:          0;
+font-weight:     bold;
+color:           #FFF;
+right:           -300px;
+padding:         0 0 0 0;
+}
+.headsubtitle
+{
+position:        relative;
+font-family:     times, Times New Roman, times-roman, georgia, serif;
+font-size:       15px;
+color:           #D0D0D0;
+right:           -300px;
+padding-top:     5px;
+}
+
+#menu
+{
+margin:          0 20px;
+height:          29px;
+padding:         5px 0;
+}
+
+#menu ul
+{
+margin:          0;
+padding:         7px;
+height:          29px;
+}
+
+#menu ul li
+{
+list-style:      none;
+display:         inline;
+}
+
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
+{
+color:           #767676;	
+padding:         10px 7px 10px 7px;
+font-size:       1em;
+font-family:     'lucida grande', arial, sans-serif;
+font-weight:     bold;
+text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+background-color:   #6A7919;
+color:           #FDFDFD;
+}
+
+
+#content
+{
+min-height:      390px;
+width:           740px;
+margin:          0 auto;
+background-color:#F0F0F0;
+}
+
+#insidecontent
+{
+float:           left;
+padding-left:    25px;
+padding-right:   25px;
+width:           auto;
+}
+
+#insidecontent date
+{
+float: right;
+text-align: right;
+}
+
+#insidecontent p
+{
+margin:          0;
+color:           #151515;
+font-family:     Tahoma;
+font-size:       1.5em;
+line-height:     180%;
+}
+
+h1
+{
+margin:          0;
+font-weight:     normal;
+color:           #6A7919;
+font-size:       2.5em;
+font-family:Times;
+}
+
+h2
+{
+margin:          0;
+display:         inline;
+position:        relative;
+top:             -1.5em;
+left:            2em;
+font-size:       1.8em;
+font-weight:     normal;
+color:           #94c258;
+}
+
+
+
+h3
+{
+margin:          0;
+font-size:       1.5em;
+font-weight:     normal;
+color:           #94C258;
+}
+
+#footer
+{
+margin:          0 auto;
+width:           741px;
+height:          39px;
+}
+
+#footer span
+{
+display:         block;
+position:        relative;
+font-family:    Tahoma;
+font-size:       1.2em;
+padding:         10px;
+color:           #767676;
+}
